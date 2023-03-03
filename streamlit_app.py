@@ -60,8 +60,5 @@ if streamlit.button('add a fruit to list'):
     back_from_function=insert_row_snowflake(fruit_choice)
     streamlit.text(back_from_function)
 
-insert_row_snowflake("jackfruit")
-insert_row_snowflake("papaya")
-insert_row_snowflake("guava")
-insert_row_snowflake("kiwi")
+
 streamlit.stop()
